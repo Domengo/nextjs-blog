@@ -6,7 +6,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = 'Dominic Sengo'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
@@ -20,9 +20,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content={'https://drive.google.com/file/d/1T-VxWbKN-cHbFsdTt7IfOaA_Qm76fJkt/view?usp=sharing'}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
